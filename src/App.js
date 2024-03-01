@@ -11,7 +11,7 @@ import Icon3 from "./images/Icon3";
 
 function App() {
   const [allData, setAllData] = useState({
-    fontFamily: "'Inter', sans-serif",
+    fontFamily: "'IBM Plex Sans', sans-serif",
     mainBg: "#fff",
     header: {
       subHeading: "FINANCIAL LIFE PRO TIP",
