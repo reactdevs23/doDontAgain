@@ -12,6 +12,8 @@ import Icon3 from "./images/Icon3";
 function App() {
   const [allData, setAllData] = useState({
     fontFamily: "'IBM Plex Sans', sans-serif",
+    subHeadingFontFamily: "'Inter', sans-serif",
+
     mainBg: "#fff",
     header: {
       subHeading: "FINANCIAL LIFE PRO TIP",
@@ -103,6 +105,7 @@ function App() {
       <div
         style={{
           "--mainBg": allData.mainBg,
+          "--subHeadingFontFamily": allData.subHeadingFontFamily,
 
           fontFamily: allData.fontFamily,
         }}
